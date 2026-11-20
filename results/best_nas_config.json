@@ -1,0 +1,35 @@
+{
+  "best_trial": 13,
+  "proxy_val_acc": 55.63333333333333,
+  "hardware_metrics": {
+    "params_m": 0.163,
+    "storage_mb": 0.6556,
+    "latency_mean_ms": 5.657,
+    "latency_p95_ms": 7.9202,
+    "peak_mem_mb": 0.0024
+  },
+  "architecture_config": {
+    "num_blocks": 3,
+    "input_resolution": 32,
+    "channels": [
+      96,
+      16,
+      96
+    ],
+    "kernel_sizes": [
+      7,
+      5,
+      7
+    ],
+    "block_types": [
+      "inverted_residual",
+      "inverted_residual",
+      "inverted_residual"
+    ],
+    "activations": [
+      "relu",
+      "gelu",
+      "hardswish"
+    ]
+  }
+}
